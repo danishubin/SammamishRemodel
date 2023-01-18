@@ -9,6 +9,7 @@ var after = document.getElementById("after");
 var before = document.getElementById("before");
 var slider = document.getElementById("slider");
 var sliderbutton = document.getElementById("slider-button");
+var sliderarrow = document.getElementById("slider-arrow");
 var range = document.getElementById("range");
 
 left.addEventListener('click', function handleClick() {
@@ -32,6 +33,7 @@ range.oninput = function() {
     before.style.width = this.value + "%";
     slider.style.left = "calc(" + this.value + "%)";
     sliderbutton.style.left = "calc(" + this.value + "%)";
+    sliderarrow.style.left = "calc(" + this.value + "% - 12px)"
 }
 
 function setImage() {
