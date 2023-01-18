@@ -1,21 +1,11 @@
 /* CSS for slider via https://orangeable.com/css/before-and-after-image-slider */
 
-body {}
-
 .gallery {
     width: 60vw;
     height: 500px;
     position: relative;
     margin: auto;
 }
-
-
-/* .center-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-} */
 
 .image {
     /* padding: 40px; */
@@ -94,8 +84,7 @@ body {}
     position: absolute;
     top: calc(50% - 18px);
     left: calc(50% - 12px);
-    cursor: pointer;
-    z-index: 3;
+    z-index: 2;
 }
 
 .slider-arrow:before {
@@ -112,4 +101,38 @@ body {}
     top: 3px;
     right: 0px;
     content: "\2B9E";
+}
+
+.caption-before {
+    z-index: 5;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    padding: 5px;
+}
+
+.caption-after {
+    z-index: 5;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    padding: 5px;
+}
+
+.row .col-md-4 img {
+    height: 250px;
+    width: 100%;
+}
+
+.row {
+    margin: 40px auto auto auto;
+    /* margin: auto; */
+}
+
+div.span {
+    margin: 50px 0 30px 0;
+    width: 100vw;
+    color: black;
+    height: 2px;
+    background-color: black;
 }
