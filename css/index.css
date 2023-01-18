@@ -5,7 +5,7 @@ body {
 #content {
     width: 100vw;
     height: 100vh;
-    background: url("../img/output-onlinepngtools.png") top right no-repeat;
+    background: url("../images/output-onlinepngtools.png") top right no-repeat;
     background-size: cover;
     position: relative;
 }
