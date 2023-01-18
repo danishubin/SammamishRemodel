@@ -1,28 +1,21 @@
 /* CSS for slider via https://orangeable.com/css/before-and-after-image-slider */
 
-
-/* .BA {
-    padding: 20px;
-}
-
-.BA .column p {
-    margin: auto;
-    text-align: center;
-} */
+body {}
 
 .gallery {
     width: 60vw;
     height: 500px;
     position: relative;
     margin: auto;
-    opacity: 1;
-    transition-duration: 0.7s;
-    transition-property: opacity;
 }
 
-.fade {
-    opacity: 0;
-}
+
+/* .center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} */
 
 .image {
     /* padding: 40px; */
@@ -89,4 +82,34 @@
 .arrow:hover {
     border: solid rgb(125, 125, 125);
     border-width: 0 3px 3px 0;
+}
+
+.slider-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -moz-broder-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% - 12px);
+    cursor: pointer;
+    z-index: 3;
+}
+
+.slider-arrow:before {
+    color: #555;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    content: "\2B9C";
+}
+
+.slider-arrow:after {
+    color: #555;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    content: "\2B9E";
 }
