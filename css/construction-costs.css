@@ -25,6 +25,8 @@ ul.nav li a:hover {
     font-weight: bold;
     font-size: 36px;
     padding-top: 20px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 .contact {
@@ -43,9 +45,4 @@ ul.nav li a:hover {
     height: 2px;
     background-color: rgb(120, 120, 120);
     margin: 10px;
-}
-
-.header {
-    margin-left: 20px;
-    text-align: center;
 }
