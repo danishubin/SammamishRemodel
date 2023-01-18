@@ -9,23 +9,25 @@ ul.nav li a:hover {
 
 .text-left {
     text-align: left;
-    padding-left: 30px;
 }
 
-.title {
+.position {
     color: rgb(120, 120, 120);
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0;
 }
-
 
 .contact {
     font-size: 18px;
     color: rgb(120, 120, 120);
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.caption {
+    color: rgb(120, 120, 120);
+    font-size: 18px;
 }
 
 .row {
@@ -39,6 +41,6 @@ ul.nav li a:hover {
     margin: 10px;
 }
 
-div{
+div {
     margin: 0;
 }
