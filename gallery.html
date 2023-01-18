@@ -14,7 +14,7 @@
 
 <body>
     <!-- Reference for Before/After image: https://orangeable.com/css/before-and-after-image-slider -->
-    <div class="row BA">
+    <!-- <div class="row BA">
         <div class="col-md-6 column">
             <p>Exterior Construction</p>
             <div class="gallery">
@@ -35,6 +35,15 @@
                 <div class="slider-button" id="slider-button2"></div>
             </div>
         </div>
+    </div> -->
+    <div class="gallery" id="gallery">
+        <input type="range" id="range" class="range" min="0" max="100" value="50" />
+        <img class="image before" id="before" src="images/Before 1.PNG" alt="before">
+        <img class="image after" id="after" src="images/After 1.PNG" alt="after">
+        <div class="slider" id="slider"></div>
+        <div class="slider-button" id="slider-button1"></div>
+        <p id="right"><i class="arrow right"></i></p>
+        <p id="left"><i class="arrow left"></i></p>
     </div>
 </body>
 <script src="js/gallery.js"></script>

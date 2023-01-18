@@ -1,22 +1,40 @@
-var range1 = document.getElementById("range1");
-var before1 = document.getElementById("before1");
-var slider1 = document.getElementById("slider1");
-var sliderbutton1 = document.getElementById("slider-button1");
+var current = 0;
+var afterImages = ["images/After\ 1.PNG", "images/After\ 2.PNG", "images/After\ 3.PNG"]
+var beforeImages = ["images/Before\ 1.PNG", "images/Before\ 2.PNG", "images/Before\ 3.PNG"]
 
-var range2 = document.getElementById("range2");
-var before2 = document.getElementById("before2");
-var slider2 = document.getElementById("slider2");
-var sliderbutton2 = document.getElementById("slider-button2");
+var gallery = document.getElementById("gallery");
+var left = document.getElementById("left");
+var right = document.getElementById("right");
+var after = document.getElementById("after");
+var before = document.getElementById("before");
+var slider = document.getElementById("slider");
+var sliderbutton = document.getElementById("slider-button");
+var range = document.getElementById("range");
+
+left.addEventListener('click', function handleClick() {
+    current -= 1;
+    if (current < 0) {
+        current = afterImages.length - 1;
+    }
+    setImage();
+});
+
+right.addEventListener('click', function handleClick() {
+    current += 1;
+    if (current >= afterImages.length) {
+        current = 0;
+    }
+    setImage();
+});
 
 // Update the current slider value (each time you drag the slider handle)
-range1.oninput = function() {
-    before1.style.width = this.value + "%";
-    slider1.style.left = "calc(" + this.value + "%)";
-    sliderbutton1.style.left = "calc(" + this.value + "%)";
+range.oninput = function() {
+    before.style.width = this.value + "%";
+    slider.style.left = "calc(" + this.value + "%)";
+    sliderbutton.style.left = "calc(" + this.value + "%)";
 }
 
-range2.oninput = function() {
-    before2.style.width = this.value + "%";
-    slider2.style.left = "calc(" + this.value + "%)";
-    sliderbutton2.style.left = "calc(" + this.value + "%)";
+function setImage() {
+    before.src = beforeImages[current];
+    after.src = afterImages[current];
 }
