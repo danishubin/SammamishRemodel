@@ -18,12 +18,16 @@ ul.nav li a:hover {
     margin: 0;
 }
 
-
 .contact {
     font-size: 18px;
     color: rgb(120, 120, 120);
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.caption {
+    color: rgb(120, 120, 120);
+    font-size: 18px;
 }
 
 .row {
@@ -37,6 +41,6 @@ ul.nav li a:hover {
     margin: 10px;
 }
 
-div{
+div {
     margin: 0;
 }

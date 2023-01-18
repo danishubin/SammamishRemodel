@@ -18,25 +18,25 @@
 </head>
 
 <body>
-<div class="header">
-    <div w3-include-html="navbar-light.html"></div>
-</div>
+    <div class="header">
+        <div w3-include-html="navbar-light.html"></div>
+    </div>
 
-<!-- Reference for Before/After image: https://orangeable.com/css/before-and-after-image-slider -->
-<div class="gallery" id="gallery">
-    <input type="range" id="range" class="range" min="0" max="100" value="50"/>
-    <img class="image before" id="before" src="images/Before 1.PNG" alt="before">
-    <img class="image after" id="after" src="images/After 1.PNG" alt="after">
-    <div class="slider" id="slider"></div>
-    <div class="slider-button" id="slider-button1"></div>
-    <p id="right"><i class="arrow right"></i></p>
-    <p id="left"><i class="arrow left"></i></p>
-</div>
+    <!-- Reference for Before/After image: https://orangeable.com/css/before-and-after-image-slider -->
+    <div class="gallery" id="gallery">
+        <input type="range" id="range" class="range" min="0" max="100" value="50" />
+        <img class="image before" id="before" src="images/Before 1.PNG" alt="before">
+        <img class="image after" id="after" src="images/After 1.PNG" alt="after">
+        <div class="slider" id="slider"></div>
+        <div class="slider-button" id="slider-button"></div>
+        <div class="slider-arrow" id="slider-arrow"></div>
+        <p id="right"><i class="arrow right"></i></p>
+        <p id="left"><i class="arrow left"></i></p>
+    </div>
 </body>
 <script src="js/gallery.js"></script>
 <script>
-
     w3.includeHTML();
-
 </script>
+
 </html>
