@@ -16,9 +16,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/construction-costs.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
+<body class="aos-item" data-aos="fade-in">
     <div class="header">
         <div w3-include-html="navbar-light.html"></div>
     </div>
@@ -68,6 +70,12 @@
         </div>
     </div>
 </body>
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 1500
+    });
+</script>
 <script>
     w3.includeHTML();
 </script>

@@ -21,107 +21,113 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
-<body>
+<body class="aos-item" data-aos="fade-in">
 
-<div class="header">
-    <div w3-include-html="navbar-light.html"></div>
-</div>
-<div class="container">
-
-    <div class="row text-left">
-        <h2 class="text-center header">Call us today!</h2>
+    <div class="header">
+        <div w3-include-html="navbar-light.html"></div>
     </div>
-    <div class="row text-left">
-        <p class="position">Office</p><br>
-        <p class="contact">(425) 269-5578</p>
+    <div class="container">
+
+        <div class="row text-left">
+            <h2 class="text-center header">Call us today!</h2>
+        </div>
+        <div class="row text-left">
+            <p class="position">Office</p><br>
+            <p class="contact">(425) 269-5578</p>
+        </div>
+        <div class="row text-left">
+            <p class="position">Sales</p><br>
+            <p class="contact">Mark Kovats</p><br>
+            <p class="contact">mkovats@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <p class="position">Office/Admin</p><br>
+            <p class="contact">Gracia Macy</p><br>
+            <p class="contact">Gracia@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <p class="position">Project Engineer</p><br>
+            <p class="contact">Diana Bean</p><br>
+            <p class="contact">Diana@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <p class="position">Site Supervisor</p><br>
+            <p class="contact">Andres Escobar</p><br>
+            <p class="contact">Andres@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <p class="position">Accounting</p><br>
+            <p class="contact">Darin Edwards</p><br>
+            <p class="contact">Darin@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <p class="position">Owner</p><br>
+            <p class="contact">Mike Flaker</p><br>
+            <p class="contact">mike@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-left">
+            <strong class="position">Sales</strong><br>
+            <p class="contact">Mark Kovats</p>
+            <p class="contact">mkovats@sammamishrcb.com</p>
+        </div>
+
+        <div class="row text-center">
+            <strong class="position">Sammamish Remodel & Custom Build, LLC</strong>
+            <p style="font-size: 15px;" class="contact">2028 E Lake Sammamish Pkwy NE Sammamish, WA 98074</p>
+            <p style="font-size: 13px;" class="contact">(office visit by appointment only)</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="header text-center">
+            <h3>Contact us through our website. We would love to hear from you!</h3>
+        </div>
+        <form class="form" method="POST">
+            <label for="email" style="font-size:large">Name:</label><br>
+            <input type="text" name="Name:">
+            <br>
+            <br>
+            <label for="email" style="font-size:large">Address/Phone:</label>
+            <br>
+            <input type="text" name="Address/Phone:">
+            <br>
+            <br>
+            <label for="email" style="font-size:large">Email:</label>
+            <br>
+            <input type="text" name="Email:">
+            <br>
+            <br>
+            <label for="email" style="font-size:large">Message:</label>
+            <br>
+            <input type="text" name="Message:">
+            <br>
+            <br>
+            <button type="submit">Submit to send inquiry</button>
+            <button input type="reset" value="Reset">Reset</button>
+        </form>
     </div>
-    <div class="row text-left">
-        <p class="position">Sales</p><br>
-        <p class="contact">Mark Kovats</p><br>
-        <p class="contact">mkovats@sammamishrcb.com</p>
-    </div>
 
-    <div class="row text-left">
-        <p class="position">Office/Admin</p><br>
-        <p class="contact">Gracia Macy</p><br>
-        <p class="contact">Gracia@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-left">
-        <p class="position">Project Engineer</p><br>
-        <p class="contact">Diana Bean</p><br>
-        <p class="contact">Diana@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-left">
-        <p class="position">Site Supervisor</p><br>
-        <p class="contact">Andres Escobar</p><br>
-        <p class="contact">Andres@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-left">
-        <p class="position">Accounting</p><br>
-        <p class="contact">Darin Edwards</p><br>
-        <p class="contact">Darin@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-left">
-        <p class="position">Owner</p><br>
-        <p class="contact">Mike Flaker</p><br>
-        <p class="contact">mike@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-left">
-        <strong class="position">Sales</strong><br>
-        <p class="contact">Mark Kovats</p>
-        <p class="contact">mkovats@sammamishrcb.com</p>
-    </div>
-
-    <div class="row text-center">
-        <strong class="position">Sammamish Remodel & Custom Build, LLC</strong>
-        <p style="font-size: 15px;" class="contact">2028 E Lake Sammamish Pkwy NE Sammamish, WA 98074</p>
-        <p style="font-size: 13px;" class="contact">(office visit by appointment only)</p>
-    </div>
-
-    <div class="line"></div>
-
-    <div class="header text-center">
-        <h3>Contact us through our website. We would love to hear from you!</h3>
-    </div>
-    <form class="form" method="POST">
-        <label for="email" style="font-size:large">Name:</label><br>
-        <input type="text" name="Name:">
-        <br>
-        <br>
-        <label for="email" style="font-size:large">Address/Phone:</label>
-        <br>
-        <input type="text" name="Address/Phone:">
-        <br>
-        <br>
-        <label for="email" style="font-size:large">Email:</label>
-        <br>
-        <input type="text" name="Email:">
-        <br>
-        <br>
-        <label for="email" style="font-size:large">Message:</label>
-        <br>
-        <input type="text" name="Message:">
-        <br>
-        <br>
-        <button type="submit">Submit to send inquiry</button>
-        <button input type="reset" value="Reset">Reset</button>
-    </form>
-</div>
-
-<script>
-
-    w3.includeHTML();
-
-</script>
+    <script>
+        w3.includeHTML();
+    </script>
 
 </body>
-
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 1500
+    });
+</script>
 
 </html>

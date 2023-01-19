@@ -17,9 +17,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gallery.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
+<body class="aos-item" data-aos="fade-in">
     <div class="header">
         <div w3-include-html="navbar-light.html"></div>
     </div>
@@ -50,6 +53,12 @@
         </div>
     </div>
 </body>
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 1500
+    });
+</script>
 <script src="js/gallery.js"></script>
 <script>
     w3.includeHTML();
