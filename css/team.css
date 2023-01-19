@@ -1,15 +1,18 @@
 .row {
     margin: auto;
-    width: 70vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
+div.col-md-4 {
+    padding-bottom: 10px;
+}
+
 h4,
 p {
     text-align: center;
-    width: 165px;
     margin: auto;
     padding-top: 10px;
 }
@@ -20,4 +23,14 @@ img {
     width: 165px;
     object-fit: cover;
     margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    width: 165px;
+}
+
+.email,
+a {
+    color: inherit;
 }
