@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+a {
+    color: rgb(120, 120, 120);
+}
+
 .contact {
     font-size: 18px;
     color: rgb(120, 120, 120);
