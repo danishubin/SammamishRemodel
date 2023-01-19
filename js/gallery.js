@@ -1,6 +1,6 @@
 var current = 0;
-var afterImages = ["images/After\ 1.png", "images/After\ 2.png", "images/After\ 3.png"]
-var beforeImages = ["images/Before\ 1.png", "images/Before\ 2.png", "images/Before\ 3.png"]
+var afterImages = ["images/After 1.png", "images/After 2.png", "images/After 3.png"]
+var beforeImages = ["images/Before 1.png", "images/Before 2.png", "images/Before 3.png"]
 
 var gallery = document.getElementById("gallery");
 var left = document.getElementById("left");
