@@ -1,0 +1,23 @@
+.row {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+h4,
+p {
+    text-align: center;
+    width: 165px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 165px;
+    object-fit: cover;
+    margin: auto;
+}
