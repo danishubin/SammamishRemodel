@@ -49,3 +49,7 @@ footer{
     top: 45%;
 }
 
+#typewriter{
+    margin-top:24px;
+    color: rgba(255, 255, 255, 0.7);
+}
