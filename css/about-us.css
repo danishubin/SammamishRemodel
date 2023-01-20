@@ -2,3 +2,13 @@
     font-size: 18px;
     color: rgb(120, 120, 120);
 }
+
+.padding {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bolder;
+    color: rgb(99, 99, 99);
+}
